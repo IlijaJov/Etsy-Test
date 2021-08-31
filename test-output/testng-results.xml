@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225569" started-at="2021-08-31T16:22:51 CEST" finished-at="2021-08-31T16:26:36 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="225569" started-at="2021-08-31T16:22:51 CEST" finished-at="2021-08-31T16:26:36 CEST">
+      <class name="tests.MainTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.MainTest@1877ab81]" name="setup" is-config="true" duration-ms="2714" started-at="2021-08-31T16:22:51 CEST" finished-at="2021-08-31T16:22:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCart()[pri:3, instance:tests.MainTest@1877ab81]" name="addToCart" duration-ms="219141" started-at="2021-08-31T16:22:54 CEST" finished-at="2021-08-31T16:26:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:tests.MainTest@1877ab81]" name="cleanup" is-config="true" duration-ms="3688" started-at="2021-08-31T16:26:33 CEST" finished-at="2021-08-31T16:26:36 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=MainTest.addToCart()[pri:3, instance:tests.MainTest@1877ab81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- tests.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
